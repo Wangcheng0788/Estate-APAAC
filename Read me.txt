@@ -1,0 +1,17 @@
+opt_E_APAAC.m			主函数，用于生成distance-based的结果
+Overfitting_0618.m		用于生成random-based的结果
+AUC_AUPR.m			同时计算AUC与AUPR的值
+AUC_cal.m			单一计算AUC的值
+dis_select.m			基于距离的样本筛选函数
+External_feature_gener.m	基于DeepDTI的数据提取函数
+F1_score_para.m			计算F1-score、precision、recall、MCC的函数
+F1_score.m			计算tp、tn、fp、fn的函数
+feature_check.m			基于PaDEL-descriptor和PROFEAT的特征调用函数
+Fold_div.m			数据集的分割函数
+model_generate_0618.m		与Overfitting_0618配合使用的model生成函数
+pca_process.m			pca的计算函数
+ran_select.m			随机的样本筛选函数
+			
+
+svmpredict.mexmaci64		libsvm的svm预测函数
+svmtrain.mexmaci64		libsvm的svm训练函数
